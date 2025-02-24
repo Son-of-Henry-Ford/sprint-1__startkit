@@ -205,6 +205,43 @@
   left: 0;
 }
 
+.kaufman{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #1f1f1f;
+  z-index: -2000;
+
+}
+
+.section__title_theme_dark{
+  width: 60%;
+  margin-top: 90px;
+  color: white;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.section__subtitle_theme_dark{
+  width: 60%;
+  margin-top: 20px;
+  color: white;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.table_theme_dark{
+  margin-top: 0;
+  margin-bottom: 90px;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -214,4 +251,26 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
+}
+
+.table__heading_theme_dark{
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text_theme_dark{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.kaufman__triangle{
+  position: absolute;
+  right: -210px;
+  top: 0;
+  z-index: -1000;
+  height: 877px;
+  width: 877px;
 }
