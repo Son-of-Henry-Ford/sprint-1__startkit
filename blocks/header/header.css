@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   background-color: #F2F2F2;
+  overflow: hidden;
 }
 
 .header__title{
