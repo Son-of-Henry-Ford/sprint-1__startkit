@@ -1,9 +1,12 @@
-.khan__book-pic{
+.khan__book-pic {
   width: 620px;
   height: 608px;
   overflow: hidden;
 }
-.khan__book-pic img{
+
+.khan__book-pic img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover; /* Заполняет контейнер без искажений */
+  object-position: center top; /* Центрирует изображение */
 }
